@@ -1,0 +1,39 @@
+/*
+
+    oqoco
+    (c) 2020 oqoco
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url('sektiojns.css');
+@import url('navi.css');
+
+html,body {
+    margin: 0;
+    height: 100%;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+* {
+    font-family: 'Questrial', 'arial';
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+}
+
+.oqou {
+    height: 100%;
+}
+
+.title {
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.39);
+}

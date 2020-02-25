@@ -1,0 +1,39 @@
+/*
+
+    oqoco navi
+    (c) 2020 oqoco
+
+*/
+
+.popi {
+    position: fixed;
+    top: 15px;
+    left: 1px;
+    z-index: 100;
+}
+
+.popi ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.popi ul li {
+    padding: 5px;
+    display: inline;
+    text-align: center;
+    margin: 0;
+}
+
+.popi ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+.popi ul li a:hover {
+    opacity: 0.8;
+}
