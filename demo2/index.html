@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/opa.css">
+        <title>oqoco</title>
+        <!--
+            
+            licensed under the unlicense
+            https://unlicense.org/
+
+        -->
+    </head>
+    <body>
+        <div class="oqou">
+            <div class="popi">
+                <ul class="nav" id="nav">
+                    <li><a href="#yo">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#use">use</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+            <div class="sektiojn defolt y" id="yo">
+                <div class="o">
+                    <h1 class="yo">oqoco</h1>
+                    <h2 class="subtitle">script controlled div pages</h2>
+                </div>
+            </div>
+            <div class="sektiojn ab" id="about">
+                <div class="o">
+                    <h1>about</h1>
+                    <p>oqoco is a javascript plugin / script that allows you to use div's as pages. it does this by listening for
+                        the navigation link you pressed and take it's 'href' attribute to change the display mode of the div the link
+                        points to so that it gets shown while hiding all the other divs. oqoco is licensed under the unlicense
+                        placing it into public domain. <a href="https://unlicense.org/" target="_blank">unlicense.org</a>
+                    </p>
+                </div>
+            </div>
+            <div class="sektiojn wo" id="use">
+                <div class="o">
+                    <h1>use</h1>
+                    <p>to use the plugin download the script from <a href="https://github.com/imcanada/oqoco" target="_blank">github</a> and put somewhere in your
+                    website folder and import. in the script file you can change some settings like the classname of your "pages" and
+                    the default page (homepage). in order to have pages you have to have multiple div's with each div
+                    acting as a page with content in it. the div's must have the classname of your pages defined in the config
+                    and an id that your nav links then point to. your nav links can be any clickable element with a href 
+                    attribute. you can use this demo site available on the github repo as a starting point to get an idea
+                    of how to set this up.</p>
+                </div>
+            </div>
+            <div class="sektiojn co" id="contact">
+                <div class="o">
+                    <h1>contact</h1>
+                    <p>you can contact me by email at <a href="mailto:hi@imcanada.cc">hi@imcanada.cc</a> or by
+                    <a href="https://twitter.com/imeuropa_eu" target="_blank">twitter</a>.</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/oqoco.min.js"></script>
+        <script src="js/srcql.js"></script>
+    </body>
+</html>

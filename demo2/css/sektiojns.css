@@ -1,0 +1,70 @@
+/*
+
+    oqoco sektiojn
+    (c) 2020 oqoco
+
+*/
+
+/* yo sektiojn */
+
+.y {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #21c24d;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+  
+.o {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.o p {
+    font-size: 1.3rem;
+}
+
+.yo {
+    font-weight: normal;
+    font-size: 6rem;
+    margin: 0;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.39);
+}
+
+.subtitle {
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+    font-size: 1.3rem;
+}
+
+/* aboot sektiojn */
+
+.ab {
+    width: 100%;
+    height: 100%;
+    background-color: #5594fa;
+}
+
+/* use */
+
+.wo {
+    width: 100%;
+    height: 100%;
+    background-color: #f5425d;
+}
+
+/* contact */
+
+.co {
+    height: 100%;
+    width: 100%;
+    background-color: #c542f5;
+}
