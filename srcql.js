@@ -23,7 +23,7 @@ function sug(xe) {
     }
 }
 
-function onload() {
+function onl() {
     console.log("srcql has been loaded.")
     var ele = document.querySelectorAll('[' + 'href="'+ pages[0] + '"' + ']');
     for ( var i = 0; i < ele.length; i++ ) {
