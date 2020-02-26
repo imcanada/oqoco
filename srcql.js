@@ -40,6 +40,7 @@ window.addEventListener('wheel', function(event) {
             scrollamount--;
             e(pages[scrollamount].substring(1));
             sug(pages[scrollamount]);
+            window.location.hash = pages[scrollamount];
         }
     }
     else if (event.deltaY > 0) {
@@ -50,6 +51,7 @@ window.addEventListener('wheel', function(event) {
         else {
             e(pages[scrollamount].substring(1));
             sug(pages[scrollamount]);
+            window.location.hash = pages[scrollamount];
         }
     }
 });
